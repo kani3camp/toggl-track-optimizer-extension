@@ -1,0 +1,4 @@
+div[open][class*="PopdownRoot"] {
+    height: min(700px, 90vh - 80px);
+    width: 350px;
+}

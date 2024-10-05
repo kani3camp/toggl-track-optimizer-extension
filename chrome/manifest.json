@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "toggl track optimizer",
+  "description": "toggle trackのかゆいところを少しいじるための拡張機能",
+  "version": "0.0",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://track.toggl.com/*"
+      ],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
