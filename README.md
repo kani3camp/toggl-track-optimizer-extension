@@ -1,1 +1,1 @@
-toggle trackのかゆいところを少しいじるための拡張機能
+toggle track WEBアプリ (https://track.toggl.com) のかゆいところを少しいじるための拡張機能
